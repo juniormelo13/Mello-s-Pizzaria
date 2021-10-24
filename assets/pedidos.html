@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu pedido!</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Pedidos</h1>
+    <main>
+        <form action="#">
+            <label for="endereco">Endereço de Entrega:</label>
+            <input type="text" name="endereco" id="endereco">
+            <label for="sabor">Escolha sua Pizza:</label>
+            <select name="sabor" id="sabor">
+                <option value="Mista">Mista</option>
+                <option value="Calabresa">Calabresa</option>
+                <option value="Milho">Milho</option>
+                <option value="4 Queijos">4 Queijos</option>
+                <option value="Sertaneja">Sertaneja</option>
+                <option value="Paulista">Paulista</option>
+            </select>
+            <label for="tamanho">Escolha o tamanho:</label>
+            <select name="tamanho" id="tamanho">
+                <option value="Familia">Familia - 12 Fatias</option>
+                <option value="Grande">Grande - 8 Fatias</option>
+                <option value="Média">Média - 6 Fatias</option>
+            </select>
+            <label for="observacao">Alguma observação?</label>
+            <textarea name="message" rows="10"></textarea>
+            <input class="botao" type="submit" value="Fazer Pedido!">
+        </form>
+    </main>
+    <div class="botao-voltar2">
+        <a href="index.html"><i class="fas fa-undo"></i></a>
+        <p>Voltar</p>   
+    </div>
+    <script src="https://kit.fontawesome.com/afe1642106.js" crossorigin="anonymous"></script>
+</body>
+</html>
